@@ -226,6 +226,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .sticky-content {
   position: sticky;
+  padding-top: 20px ;
   position: -webkit-sticky;
   top: 0;
   /* required */
@@ -497,7 +498,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  padding: 0 0 4rem 0;
+  padding: 2rem 0 4rem 0;
   font-size: 0.85rem;
   color: #375A66;
 }
@@ -560,4 +561,18 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .info_skill li{
   list-style-type: none;
 
+}
+
+.volver_btn {
+  color: #111;
+  padding: 2px 10px;
+  background: #e6e6e6;
+
+}
+
+.volver_btn:hover{
+  color: #111;
+  padding: 2px 10px;
+  background: #cccccc;
+  text-decoration: none;
 }
