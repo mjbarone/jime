@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .custom-progress .progress-bar {
-  background: #A259E1;
+  background: #111;
 }
 
 /* Contact Form */
@@ -390,7 +390,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 .custom-navmenu .list{
   font-size: 0.75rem;
-  color: #A259E1;
+  color: #111;
 }
 
 
@@ -420,7 +420,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .custom-navbar .navbar-brand {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
    background: linear-gradient(rgba(162, 89, 255, 1),rgba(203, 0, 255, 1));
   -webkit-background-clip: text;
@@ -512,7 +512,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   height: 50px;
   font-size: 1.5rem;
   border-radius: 50%;
-  background: #A259E1;
+  background: #111;
   position: relative;
   text-align: center;
   color: #fff;
@@ -544,7 +544,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .info_skill .list{
   font-size: 0.75rem;
-  color: #A259E1;
+  color: #111;
 }
 
 .info_skill{
