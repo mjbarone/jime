@@ -1,0 +1,241 @@
+body{
+    margin: auto;
+    background-color: #fff;
+	font-family: 'Lato', sans-serif;
+    color: #0D0D0D;
+}
+
+h1 h2 h4 h5 {
+    font-family: 'Lato', sans-serif;
+
+} 
+
+.section_frase h3{
+    font-weight: 100; 
+    font-size: 3em;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+
+} 
+
+.logo_head {
+	width: 250px;
+    margin-left: 5%;
+    
+}
+
+/*section FRASE*/
+
+.section_frase{
+    width:100%;
+	float:left;
+	padding:10%;
+	margin:0px;
+	text-align:center;
+	background-color:#61C680;
+   }
+
+.section_frase{
+	width:100%;
+	float:left;
+	padding:150px 0 150px 0;
+	margin:0px;
+	background: url("../img/bg_arboles_verde.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0;
+	background-position: center;
+	}
+	
+.section_frase .title {
+    font-family: "Raleway",sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin:0px;
+	text-align: center;
+    padding:0 0 35px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.section_frase .title span {
+    color: #61C680;
+}
+
+.section_frase .cont {
+	width:60%;
+    margin:0 auto;
+	text-align: center;
+    padding:0px;
+    color: #fff;
+}
+
+.section_frase .readmore_but4 {
+    margin:40px 0 0 500px;
+}
+
+/*fin section FRASE*/
+
+/*section Proyectos*/
+
+.section_proyectos{
+	width:100%;
+	font-family: 'Lato', sans-serif;
+	float:left;
+	padding:100px 0 100px 0;
+	margin:0px;
+	background: url("../img/bg_proyectos.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0;
+	background-position: center;
+	}
+
+.post-entry img{
+	margin-bottom: 20px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	transition:all .5s ease-in-out;
+	
+}
+
+.post-entry img:hover{
+	transition-property: transform;
+	transition-duration: 0.2s;
+	-webkit-transform:cale(1.05);
+	transform:scale(1.05);
+	filter: opacity(.6);
+}
+
+.post-entry {
+	background-color:#fff;
+	border-radius: 3%;
+	padding: 20% 10% 20% 10%;
+	text-align: center;
+
+}
+
+.post-entry h3 a{
+    font-weight: 100; 
+	color:#61C680;
+	text-align: center;
+	text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+	margin-top: 40px;
+} 
+
+.post-entry h3 a:hover{
+	color: #2d2d2d;
+	text-decoration: none;
+} 
+
+.post-entry .title {
+    font-family: "Raleway",sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin:0px;
+	text-align: center;
+    padding:0 0 35px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.post-entry .title span {
+    color: #fdce16;
+}
+
+.post-entry .cont {
+	width:60%;
+    margin:0 auto;
+	text-align: center;
+    padding:0px;
+    color: #fff;
+}
+
+.post-entry .readmore_but4 {
+    margin:40px 0 0 500px;
+}
+
+
+
+/*section Voluntarios*/
+
+.volunteer{
+	width: 100%;
+	margin-bottom: 30px;
+	transition(.3s);
+
+}
+
+.img{
+	background-position: top center;
+	width: 300px;
+	display: block;
+	height: 300px;
+	border-radius: 50%;
+	position: relative;
+	transition:all .5s ease-in-out;
+	
+}
+
+.text{
+	padding: 10px 20px;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 10px;
+	background-color: #61C680;
+	
+}	
+
+.volunteer .h3{
+	color: $white;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.volunteer span{
+	color: rgba(255,255,255,.7);
+}
+
+.text-1{
+	background: $primary;
+}
+
+.text-2{
+	background: $secondary;
+}
+
+.text-3{
+		background: $tertiary;
+	}
+
+.text-4{
+	background: $quarternary;
+}
+
+.img:hover{
+	transition-property: transform;
+	transition-duration: 0.5s;
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);}
+}
+
+
+
+.ftco-animate {
+	opacity: 0;
+	visibility: hidden;
+
+}
+
+
+
