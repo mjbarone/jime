@@ -23,14 +23,16 @@
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <title>REDONDA & CO</title>
-
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.2/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.2/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 
 </head>
 
 <body>
 
   
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  <nav class="navbar navbar-expand-lg navbar-light bg-blanco" >
     <a class="navbar-brand" href="#"><img class="logo_head" src="img/logo.svg" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,10 +41,10 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Quiénes Somos</a>
+          <a class="nav-link" href="#">Quiénes somos</a>
         </li>
        
         <li class="nav-item dropdown">
@@ -74,7 +76,8 @@
   </nav>
   
   <div class="clearfix">  
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/608963866?h=dbdad4fbc7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="DXG_Loop v2 Clientes"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>    
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/502590895?wmode=opaque&api=1&loop=0&muted=0&player_id=video_video_1&title=1&byline=1&portrait=1&color=3ab9ff" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="DXG_Loop v2 Clientes"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>    
+    
   </div>
 
   <!--FRASE-->
@@ -90,11 +93,16 @@
 <div class="section_proyectos">
     <div class="container">
       <div class="row mb-5">
-        <div class="col-md-12">
+        <div class="col-md-3">
+          <div class="linea"></div>
+        </div>
+        <div class="col-md-6">
           <h2>Nuestros proyectos</h2>
         </div>
+        <div class="col-md-3">
+          <div class="linea"></div>
+        </div>
       </div>
-
       <div class="row">
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="post-entry">
@@ -102,28 +110,28 @@
               <img src="img/img_foodtruck.jpg" alt="Image placeholder" class="img-fluid">
             </a>
             <h3><a href="#">Foodtruck</a></h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-            <p><a href="#" class="link-underline">más información</a></p>
+            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. </p>
+            <a href="#" class="leermas">más información</a>
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="post-entry">
             <a href="#" class="mb-3 img-wrap">
-              <img src="img/img_foodtruck.jpg" alt="Image placeholder" class="img-fluid">
+              <img src="img/img_foodtruck.jpg" alt="Simbiosis" class="img-fluid">
             </a>
             <h3><a href="#">Simbiosis</a></h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-            <p><a href="#" class="link-underline">más información</a></p>
+            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. </p>
+            <a href="#" class="leermas">más información</a>
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="post-entry">
             <a href="#" class="mb-3 img-wrap">
-              <img src="img/img_foodtruck.jpg" alt="Image placeholder" class="img-fluid">
+              <img src="img/img_foodtruck.jpg" alt="Trashumante" class="img-fluid">
             </a>
             <h3><a href="#">Trashumante</a></h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-            <p><a href="#" class="link-underline">más información</a></p>
+            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. </p>
+            <a href="#" class="leermas">Más información</a>
           </div>
         </div>
       </div>
@@ -134,9 +142,60 @@
 
 <!--FIN FRASE--> 
 
+  <!--clientes-->
+<div class="section_clientes">
+  <div class="container">
+    <div class="row mb-12">
+      <div class="col-md-3">
+        <div class="linea_gris">
+        </div>
+      </div>
+      <div class="col-md-6">
+          <h2>Nuestros clientes</h2>
+      </div>
+      <div class="col-md-3">
+        <div class="linea_gris">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="swiffy-slider slider-item-show5 slider-nav-autoplay " data-slider-nav-autoplay-interval="2000">
+  <div class="slider-container">
+    <div><img src="img/logo01_gris.jpg" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>
+    <div><img src="img/logo01_gris.jpg" loading="lazy" alt="..."></div>   
+  </div>
+      <!-- BOTONES ANT Y SIG
+      <button type="button" class="slider-nav" aria-label="anterior"></button>
+      <button type="button" class="slider-nav slider-nav-next" aria-label="siguiente"></button>--> 
+</div>
+
+<!--FIN clientes--> 
+
+<!--FOOTER--> 
+<section class="footer">
+  <div class="container">
+    
+  </div>
+</section>
 
 
-
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">COPYRIGHT REDONDA&CO - 2022</span>
+  </div>
+</footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
