@@ -7,12 +7,7 @@ body{
 
 h1 h2 h4 h5 {
     font-family: 'Lato', sans-serif;
-
 } 
-
-.bg-blanco{
-	background-color: #fff;
-}
 
 .section_frase h3{
     font-weight: 100; 
@@ -28,8 +23,20 @@ h1 h2 h4 h5 {
     
 }
 
+.navbar{
+	font-family: 'Lato', sans-serif;
+}
+
 /*section FRASE*/
 
+.section_frase{
+    width:100%;
+	float:left;
+	padding:10%;
+	margin:0px;
+	text-align:center;
+	background-color:#61C680;
+   }
 
 .section_frase{
 	width:100%;
@@ -81,60 +88,45 @@ h1 h2 h4 h5 {
 	width:100%;
 	font-family: 'Lato', sans-serif;
 	float:left;
+	padding:80px 0 80px 0;
 	margin:0px;
-	padding: 100px 0px 50px 0px;
-	background: url("../img/bg_proyectos.jpg");
-	background-attachment: fixed;
-	background-origin: initial;
-	background-clip: initial;
-	background-size: cover;
-	background-repeat:no-repeat;
-	background-position:100% 0;
-	background-position: center;
+	background-color: #2E2D2C;
 	}
 
 .post-entry img{
-	margin: 0px 0px 40px 0px;
+	margin-bottom: 20px;
 	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	transition:all .5s ease-in-out;
+	
 }
 
 .post-entry img:hover{
 	transition-property: transform;
 	transition-duration: 0.2s;
 	-webkit-transform:cale(1.05);
-	border: 1px solid #dadada;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	transform:scale(1.05);
+	filter: opacity(.6);
 }
 
-
-.linea {
-	border-top: 0.5px solid #fff;
-	height: 1px;
-	padding: 0;
-	margin: 40px auto 0 auto;
-  }
-
-.post-entry{
+.post-entry {
 	background-color:#fff;
-	border-radius: 30px;
-	padding: 20% 10% 10% 10%;
+	border-radius: 3%;
+	padding: 20% 10% 20% 10%;
 	text-align: center;
 
 }
 
-.section_proyectos h2{
-    font-weight: 400; 
-	color:#fff;
+.section_proyectos h2 {
+    font-weight: 300; 
+	font-size:50px;
+	color:#61C680;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: none;
     line-height: 1em;
-    letter-spacing: 0.1em;
-	margin: 20px 0px 40px 0px;
+    letter-spacing: 0.2em;
+	margin: 30px 0 30px 0;
 } 
-
-
 
 .post-entry h3 a{
     font-weight: 300; 
@@ -143,6 +135,7 @@ h1 h2 h4 h5 {
 	text-transform: uppercase;
     line-height: 1em;
     letter-spacing: 0.1em;
+	margin-top: 40px;
 } 
 
 .post-entry h3 a:hover{
@@ -150,62 +143,238 @@ h1 h2 h4 h5 {
 	text-decoration: none;
 } 
 
-.post-entry p {
-    font-family: "Lato",sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    margin:10px;
+.post-entry .title {
+    font-family: 'Lato',sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin:0px;
 	text-align: center;
-    padding:7%;
-    color: #2d2d2d;
+    padding:0 0 35px 0;
+    color: #fff;
+    text-transform: uppercase;
 }
 
-.leermas {
-	background-color:#fff;
-	font-size: 12px;
-	padding: 10px 20px 10px 20px;
-	border-radius: 25px;
-	border: 1px solid #dadada;
-	color: #2d2d2d;
-	font-family: 'Lato', sans-serif;
-	text-decoration: none;
-	text-transform: uppercase;
+.post-entry .title span {
+    color: #fdce16;
 }
 
+.post-entry .cont {
+	width:60%;
+    margin:0 auto;
+	text-align: center;
+    padding:0px;
+    color: #fff;
+}
 
-.leermas:hover {
-	background-color:#61C680;
-	border: 1px solid #61C680;
-	text-decoration: none;
-	color: #fff;
+.post-entry .readmore_but4 {
+    margin:40px 0 0 500px;
 }
 
 
-/*fin section Proyectos*/
 
-/*section clientes*/
+/*section Voluntarios*/
+
+.volunteer{
+	width: 100%;
+	margin-bottom: 30px;
+	transition(.3s);
+
+}
+
+.img{
+	background-position: top center;
+	width: 300px;
+	display: block;
+	height: 300px;
+	border-radius: 50%;
+	position: relative;
+	transition:all .5s ease-in-out;
+	
+}
+
+.text{
+	padding: 10px 20px;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 10px;
+	background-color: #61C680;
+	
+}	
+
+.volunteer .h3{
+	color: $white;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.volunteer span{
+	color: rgba(255,255,255,.7);
+}
+
+.text-1{
+	background: $primary;
+}
+
+.text-2{
+	background: $secondary;
+}
+
+.text-3{
+		background: $tertiary;
+	}
+
+.text-4{
+	background: $quarternary;
+}
+
+.img:hover{
+	transition-property: transform;
+	transition-duration: 0.5s;
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);}
+}
 
 
-.linea_gris {
-	border-top: 0.5px solid #262626;
-	height: 1px;
-	padding: 0;
-	margin: 70px auto 0 auto;
+
+.ftco-animate {
+	opacity: 0;
+	visibility: hidden;
+
+}
+
+
+/* Featurettes
+------------------------- */  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+	font-weight: 300;
+	font-size:5em;
+	color: #61C680;
+	font-family: 'Anton', sans-serif;
   }
 
+.section_truck_black {
+	padding: 3em;
+	background-color: #2d2d2d;
+}
 
-.section_clientes h2{
-	font-weight: 400; 
-	color:#262626;
-	text-align: center;
-	text-transform: uppercase;
-    line-height: 1em;
-    letter-spacing: 0.1em;
-	margin: 60px 0px 30px 0px;
+.section_truck_green{
+	padding: 3em;
+	background: url("../img/bg_arboles_verde.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0;
+	background-position: center;
+}
+
+.section_truck_white{
+	padding: 3em;
+	background: url("../img/bg_blanco.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0;
+	background-position: center;
+
+}
+
+.section_truck_grey{
+	padding: 3em;
+	background-color: #f2f2f2;
+}
+
+.txt_truck{
+	font-size:1.3em;
+	font-family: 'Lato', sans-serif;
+	font-weight:300 ;
+	letter-spacing: 1.2;
+  }
+
+.truck_titular {
+	font-weight: 100;
+	font-size:3em;
+	color: #61C680;
+	font-family: 'Anton', sans-serif;
+  }
+
+ .icon_text{
+	font-size:0.8em;
+	font-family: 'Lato', sans-serif;
+  }
+
+.card {
+	box-shadow: 0 3px 3px -3px black;
 }
 
 
-.footer{
-	margin: 30px 0px 0px 0px;
 
-}
+/* FOOTER
+------------------------- */  
+
+.b-example-divider {
+	height: 3rem;
+	background-color: rgba(0, 0, 0, .1);
+	border: solid rgba(0, 0, 0, .15);
+	border-width: 1px 0;
+	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+  }
+
+  .footer{
+	padding: 1em;
+	background-color: #61C680;
+
+  }
+  
+
+  .bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+  }
+
+  @media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+	  font-size: 3.5rem;
+	}
+  }
+
+.icon_redes {
+	fill: #61C680;
+	margin: 5px;
+
+  }
+
+.icon_redes svg:hover {
+	fill: #2d2d2d;
+
+  }
+
+  .section_footer{
+	width:100%;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	float:left;
+	padding:20px 0 20px 0;
+	margin:0px;
+	background-color: #2d2d2d;
+	color: #fff;
+	}
+
+.section_footer  h5{
+	font-family: 'Anton', sans-serif;
+
+	}
