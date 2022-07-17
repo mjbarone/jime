@@ -18,8 +18,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   
   <!-- GARAMOND -->
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-  
+
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
   <!-- fin font -->
 
 
@@ -36,7 +40,6 @@
   <!-- ######### SVG ICONS ######### -->
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="bootstrap" viewBox="0 0 118 94">
-      <title>Bootstrap</title>
       <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
     </symbol>
     <symbol id="facebook" viewBox="0 0 16 16">
@@ -51,7 +54,7 @@
    </svg>
     <!-- fin ICONS -->
     <!-- menu -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <nav class="navbar navbar-expand-lg menu_nav" >
       <a class="navbar-brand" href="#"><img class="logo_head" src="img/logo.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -60,35 +63,24 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">QUIENES SOMOS</a>
+            <a class="nav-link" href="#">quiénes somos</a>
           </li>
         
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              PROYECTOS
+              proyectos
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="redondatruck.html">REDONDA TRUCK</a>
-              <a class="dropdown-item" href="#">SIMBIOSIS</a>
-              <a class="dropdown-item" href="#">TRANSHUMANTE</a>
-            </div>
-          </li>
-
-          <li class="nav-item dropdown" >
-            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              ENFOQUES
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">LABORATORIOS</a>
-              <a class="dropdown-item" href="#">INSTITUTO </a>
-              <a class="dropdown-item" href="#">PRODUCTORA</a>
+              <a class="dropdown-item" href="redondatruck.html">redonda truck</a>
+              <a class="dropdown-item" href="simbiosis.html">simbiosis</a>
+              <a class="dropdown-item" href="#">transhumante</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACTO</a>
+            <a class="nav-link" href="#">contacto</a>
           </li>
         </ul>
       </div>
@@ -103,7 +95,7 @@
   <!--FRASE-->
   <div class="section_frase">
     <div class="container">
-      <h3>Un ecosistema para conectar, inspirar e impulsar el cambio de era en el entorno de la sostenibilidad.</h3>
+      <h3>Un ecosistema para <strong>conectar, inspirar e impulsar el cambio </strong>de era en el entorno de la <strong>sostenibilidad</strong>.</h3>
       </div>
   </div>
 
@@ -114,46 +106,57 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-12">
-            <h2>Nuestros proyectos</h2>
+            <h2>Nuestros <strong>proyectos</srtong></h2>
           </div>
         </div>
-
         <div class="row">
           <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="post-entry">
               <a href="#" class="mb-3 img-wrap">
                 <img src="img/img_foodtruck.jpg" alt="Image placeholder" class="img-fluid">
               </a>
-              <h3 class="tittle"><a href="#">REDONDA TRUCK</a></h3>
+              <h3 class="tittle">Redonda <strong>truck</strong></h3>
               <p>El primer foodtruck de Europa con herramientas creadas para conservar, transformar y generar energía.</p>
-              <p><a href="redondatruck.html" class="link-underline">más información</a></p>
+              <p><a href="redondatruck.html" class="link_post">más información</a></p>
             </div>
           </div>
+
           <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="post-entry">
               <a href="#" class="mb-3 img-wrap">
                 <img src="img/img_foodtruck.jpg" alt="Image placeholder" class="img-fluid">
               </a>
-              <h3><a href="#">Simbiosis</a></h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-              <p><a href="#" class="link-underline">más información</a></p>
+              <h3>Simbiosis</h3>
+              <p>Desarrollo del territorio mediante intensificación agroecologica y regeneración del capital natural.</p>
+              <p><a href="#" class="link_post">más información</a></p>
             </div>
           </div>
+
           <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="post-entry">
               <a href="#" class="mb-3 img-wrap">
-                <img src="img/img_foodtruck.jpg" alt="Image placeholder" class="img-fluid">
+                <img src="img/img_aterrizaje.jpg" alt="Image placeholder" class="img-fluid">
               </a>
-              <h3><a href="#">Trashumante</a></h3>
+              <h3>Aterrizaje <strong>2030</strong></h3>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-              <p><a href="#" class="link-underline">más información</a></p>
+              <p><a href="https://www.aterrizaje2030.org/" target="_blank" class="link_post" >más información</a></p>
             </div>
           </div>
+          
         </div>
       </div>
     </div> 
 
 <!--FIN FRASE-->
+
+<!--
+REDES
+<div class="section_redes">
+    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+    <iframe src="https://snapwidget.com/embed/1003610" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+</div>
+fin redes -->
+
 
 <!--footer--> 
 <div class="section_footer top_border">
@@ -162,36 +165,26 @@
   
   <footer class="py-5">
     <div class="row">
-      <div class="col-3">
-        <h5>Secciones</h5>
+      <div class="col-4">
+        <h5>secciones</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2 footer_link"><a href="index.html">Inicio</a></li>
-          <li class="nav-item mb-2 footer_link"><a href="about.html">Quienes Somos</a></li>
-          <li class="nav-item mb-2 footer_link"><a href="contacto.html">Contacto</a></li>
+          <li class="nav-item mb-2 footer_link"><a href="index.html">inicio</a></li>
+          <li class="nav-item mb-2 footer_link"><a href="about.html">quiénes somos</a></li>
+          <li class="nav-item mb-2 footer_link"><a href="contacto.html">contacto</a></li>
         </ul>
       </div>
 
-      <div class="col-3">
-        <h5>Proyectos</h5>
+      <div class="col-4">
+        <h5>proyectos</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2 footer_link"><a href="redonda.html">Redonda Truck</a></li>
-          <li class="nav-item mb-2 footer_link"><a href="simbiosis.html">Simbiosis</a></li>
-          <li class="nav-item mb-2 footer_link"><a href="trashumante.html">Trashumante</a></li>
+          <li class="nav-item mb-2 footer_link"><a href="redonda.html">redonda truck</a></li>
+          <li class="nav-item mb-2 footer_link"><a href="simbiosis.html">simbiosis</a></li>
+          <li class="nav-item mb-2 footer_link"><a href="trashumante.html">trashumante</a></li>
         </ul>
       </div>
-
-      <div class="col-3">
-        <h5>Enfoques</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2 footer_link" ><a href="laboratorio.html">Laboratorio</a></li>
-          <li class="nav-item mb-2 footer_link"><a href="instituto.html">Instituto</a></li>
-          <li class="nav-item mb-2 footer_link"><a href="productora.html">Productora</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-3">
+      <div class="col-4">
       
-          <h5>Nuestras redes sociales</h5>
+          <h5>nuestras redes sociales</h5>
           <div class="d-flex w-100 gap-2">
             <ul class="list-unstyled d-flex">
               <li><a class="icon_redes" href="#"><svg  width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
